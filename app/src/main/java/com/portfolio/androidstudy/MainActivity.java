@@ -10,9 +10,20 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String hello = new String();
+        // Ctrl + P 매개변수 후보 확인
+        // Ctrl + O Override 함수
+        // Ctrl + Shift + F Find in Path
+        // Ctrl + Q 클래스 정보 확인
+
     }
 
     public void onButton1Clicked(View v) {
