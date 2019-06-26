@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SampleLinearLayout"></activity>
+        <activity android:name=".session2.SampleRelativeActivity"></activity>
+        <activity android:name=".SampleLinearLayout" />
         <activity android:name=".DoitMission2Activity" />
         <activity android:name=".DoitMission1Activity" />
         <activity android:name=".SampleConstraintActivity" />
         <activity android:name=".Study2_1_2Activity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".LayoutCodeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
