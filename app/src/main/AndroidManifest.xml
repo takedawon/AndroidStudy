@@ -9,23 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session2.SampleScrollActivity">
+        <activity android:name=".session2.DoitMission4Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".session2.SampleFrameActivity"/>
+        <activity android:name=".session2.DoitMisson3Activity"/>
+        <activity android:name=".session2.SampleScrollActivity" />
+        <activity android:name=".session2.SampleFrameActivity" />
         <activity android:name=".session2.SampleTableActivity" />
         <activity android:name=".session2.SampleRelativeActivity" />
-        <activity android:name=".SampleLinearLayout" />
+        <activity android:name=".session1.SampleLinearLayout" />
         <activity android:name=".DoitMission2Activity" />
         <activity android:name=".DoitMission1Activity" />
-        <activity android:name=".SampleConstraintActivity" />
-        <activity android:name=".Study2_1_2Activity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".LayoutCodeActivity" />
+        <activity android:name=".session1.SampleConstraintActivity" />
+        <activity android:name=".session1.Study2_1_2Activity" />
+        <activity android:name=".session1.MainActivity" />
+        <activity android:name=".session1.LayoutCodeActivity" />
     </application>
 
 </manifest>
