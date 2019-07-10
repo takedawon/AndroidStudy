@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session3.SampleWidgetActivity">
+        <activity android:name=".session3.SampleDrawable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".session2.DoitMission4Activity"/>
+        <activity android:name=".session3.SampleWidgetActivity"/>
+        <activity android:name=".session2.DoitMission4Activity" />
         <activity android:name=".session2.DoitMisson3Activity" />
         <activity android:name=".session2.SampleScrollActivity" />
         <activity android:name=".session2.SampleFrameActivity" />
