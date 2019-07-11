@@ -52,7 +52,7 @@ public class SampeDialogActivity extends AppCompatActivity {
         builder.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                String message = "안오 버튼이 눌렸습니다.";
+                String message = "아니오 버튼이 눌렸습니다.";
                 textView.setText(message);
             }
         });
