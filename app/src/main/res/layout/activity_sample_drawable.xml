@@ -42,6 +42,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/border_drawable"
         android:text="Button"
-        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="160dp" />
 </android.support.constraint.ConstraintLayout>
