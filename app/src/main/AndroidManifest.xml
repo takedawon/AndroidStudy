@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session3.SampleProgressActivity">
+        <activity android:name=".session3.DoitMission6Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".session3.SampeDialogActivity"/>
+        <activity android:name=".session3.DoitMission5Activity"/>
+        <activity android:name=".session3.SampleProgressActivity" />
+        <activity android:name=".session3.SampeDialogActivity" />
         <activity android:name=".session3.SampleToastActivity" />
         <activity android:name=".session3.SampleDrawable" />
         <activity android:name=".session3.SampleWidgetActivity" />
