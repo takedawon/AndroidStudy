@@ -9,16 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session4.SampleParcelableMenuActivity"></activity>
-        <activity android:name=".session4.SampleParcelableActivity" >
+        <activity android:name=".session4.SampleTaskActivity"
+             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".session4.SampleParcelableMenuActivity" />
+        <activity android:name=".session4.SampleParcelableActivity"/>
         <activity android:name=".session4.SampleCallIntentMenuActivity" />
-        <activity android:name=".session4.SampleCallIntentActivity"/>
+        <activity android:name=".session4.SampleCallIntentActivity" />
         <activity
             android:name=".session4.SampleIntentMenuActivity"
             android:label="메뉴 액티비티"
