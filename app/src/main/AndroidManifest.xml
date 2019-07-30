@@ -9,19 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session4.DoItMission8ProductActivity"></activity>
-        <activity android:name=".session4.DoItMisson8SaleActivity" />
-        <activity android:name=".session4.DoItMission8MemberActivity" />
-        <activity android:name=".session4.DoItMission8MenuAcitivty" />
-        <activity android:name=".session4.DoItMission8LoginAcitivty">
+        <activity android:name=".session5.SampleFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".session4.DoItMission8ProductActivity" />
+        <activity android:name=".session4.DoItMisson8SaleActivity" />
+        <activity android:name=".session4.DoItMission8MemberActivity" />
+        <activity android:name=".session4.DoItMission8MenuAcitivty" />
+        <activity android:name=".session4.DoItMission8LoginAcitivty" />
         <activity android:name=".session4.DoItMission7MenuActivity" />
-        <activity android:name=".session4.DoItMission7Activity"/>
+        <activity android:name=".session4.DoItMission7Activity" />
         <activity android:name=".session4.SampleLifeCycleActivity" />
         <activity android:name=".session4.SampleTaskActivity" />
         <activity android:name=".session4.SampleParcelableMenuActivity" />
