@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".session5.SampleFragment2Activity">
+        <activity android:name=".session5.SampleActionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".session5.SampleFragmentActivity"/>
+        <activity android:name=".session5.SampleOptionMenuActivity"/>
+        <activity android:name=".session5.SampleFragment2Activity" />
+        <activity android:name=".session5.SampleFragmentActivity" />
         <activity android:name=".session4.DoItMission8ProductActivity" />
         <activity android:name=".session4.DoItMisson8SaleActivity" />
         <activity android:name=".session4.DoItMission8MemberActivity" />

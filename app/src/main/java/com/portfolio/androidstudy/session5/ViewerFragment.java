@@ -21,7 +21,6 @@ public class ViewerFragment extends Fragment {
 
         imageView = root.findViewById(R.id.imageView7);
 
-
         return root;
     }
 
